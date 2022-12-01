@@ -295,8 +295,8 @@ class Game:
                 print("Ходит компьютер !")
 
                 def fx():
-                    for i in range(1, 4):
-                        print("." * 1, end="")
+                    for i in range(3):
+                        print(".", end="")
                         time.sleep(2)
                 fx()
                 repeat = self.ai.move()
